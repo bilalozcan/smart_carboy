@@ -7,8 +7,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: BaseContainer(Column()),
+      body: BaseContainer(image: 'assets/background.png',child: Column()),
     );
   }
 }

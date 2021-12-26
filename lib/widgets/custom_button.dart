@@ -30,7 +30,7 @@ class CustomButton extends StatelessWidget {
       width: width ?? context.dynamicWidth(1),
       padding: EdgeInsets.symmetric(vertical: 4),
       child: ElevatedButton(
-          onPressed: () {},
+          onPressed: onPressed ?? () {},
           child: text != null
               ? CustomText(text!, color: textColor ?? Color(0xff1D91D2))
               : child,
