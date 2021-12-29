@@ -11,8 +11,8 @@ import '../main/main_view.dart';
 
 class LoginViewModel extends CustomBaseViewModel {
   final AuthService _authService = AuthService.instance!;
-  final userName = TextEditingController(text: 'dev@qdigitalagency.com');
-  final password = TextEditingController(text: 'asdfasdf');
+  final userName = TextEditingController();
+  final password = TextEditingController();
 
   @override
   void initialize(BuildContext context) {
